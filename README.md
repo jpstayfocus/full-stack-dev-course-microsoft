@@ -1,4 +1,4 @@
-# full-stack-dev-course-microsoft
+# full-stack-dev
 Full Stack Dev Course Microsoft
 
 - Foundations of coding full-stack
