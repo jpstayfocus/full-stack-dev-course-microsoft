@@ -1,0 +1,138 @@
+Objective: 
+
+Demonstrate how software developers can use flowcharts and pseudocode to plan and visualize logical program flow before writing code.
+
+Description: 
+
+This activity will provide examples of how logical processes, such as sequences, control structures, and iterations, can be mapped out using flowcharts and pseudocode. By visualizing these processes, you can ensure that your code follows a logical and efficient path.
+
+Example 1: Creating a Login System Flowchart and Pseudocode
+Step-by-Step Example:
+1. Define the Problem:
+
+Create a login system where users can enter their username and password. The system should validate these credentials and allow or deny access.
+
+2. Identify Key Processes:
+
+Input username and password.
+
+Validate credentials.
+
+Grant or deny access based on validation.
+
+3. Draw the Flowchart:
+
+Start (Oval): Represents the beginning of the login process.
+
+Input Credentials (Rectangle): The user inputs their username and password.
+
+Validate Credentials (Diamond): Checks if the username and password match the stored data.
+
+Access Granted (Rectangle): If credentials are valid, the user is granted access.
+
+Access Denied (Rectangle): If credentials are invalid, the user is denied access.
+
+End (Oval): Represents the end of the process.
+
+Flowchart Example:
+
+<img width="975" alt="Screenshot 2024-11-24 at 11 46 47 PM" src="https://github.com/user-attachments/assets/80218262-dcf6-4cd6-ab44-9cbb96f54b19">
+
+4. Transition to Pseudocode:
+
+Start (Flowchart) → Start (Pseudocode): The flowchart starts with a generic "Start" symbol, which corresponds to initiating the program in pseudocode.
+
+Input Credentials (Flowchart) → Prompt user for username and password (Pseudocode): The flowchart’s rectangle for input is directly translated into a command that prompts the user for their username and password.
+
+Credentials are Valid? (Flowchart) → If username and password are valid (Pseudocode): The diamond shape in the flowchart represents a decision point, which maps to an "If" statement in pseudocode. This condition checks the validity of the credentials.
+
+Access Granted / Input Credentials→ Grant access / Repeat Input Credentials (Pseudocode): Depending on the decision outcome, the flowchart splits into two possible paths (granting access or back to input credentials). These paths translate to conditional blocks in pseudocode, which specify what happens under each condition.
+
+End (Flowchart) → End (Pseudocode): The flowchart ends with an "End" symbol, which corresponds to concluding the logic in pseudocode.
+
+5. Pseudocode:
+
+<img width="740" alt="Screenshot 2024-11-24 at 11 48 32 PM" src="https://github.com/user-attachments/assets/40850e74-06c9-4067-b820-acc5b1744cfa">
+
+Example 2: Creating an E-commerce Checkout Process Flowchart and Pseudocode
+1. Define the Problem:
+
+Develop an e-commerce checkout process that includes selecting products, adding them to the cart, entering shipping details, selecting a payment method, and confirming the order.
+
+2. Identify Key Processes:
+
+Select products
+
+Add products to the cart
+
+Enter shipping details
+
+Select payment method
+
+Confirm order
+
+3. Draw the Flowchart:
+
+Start (Oval): Begins the checkout process.
+
+Select Products (Rectangle): User selects products to purchase.
+
+Add to Cart (Rectangle): Selected products are added to the shopping cart.
+
+Input Shipping Details (Rectangle): User inputs their shipping information.
+
+Select Payment Method (Diamond): User chooses a payment option, either credit card, or a digital payment platform.
+
+Confirm Order (Rectangle): Finalize the order details.
+
+End (Oval): Ends the checkout process.
+
+Flowchart Example:
+
+<img width="889" alt="Screenshot 2024-11-24 at 11 51 06 PM" src="https://github.com/user-attachments/assets/f194273e-bbc8-454f-97bd-b47ed25fc781">
+
+4. Transition to Pseudocode:
+
+Start (Flowchart) → Start (Pseudocode): Like the login system example, the "Start" in the flowchart translates to initiating the function or process in pseudocode.
+
+Select Products (Flowchart) → Allow user to select products (Pseudocode): The action of selecting products is directly mapped from a flowchart process box to a pseudocode command that enables product selection.
+
+Add to Cart (Flowchart) → Add selected products to cart (Pseudocode): The process of adding products to a cart in the flowchart is translated into a pseudocode line that implements this functionality.
+
+Input Shipping Details (Flowchart) → Prompt user to enter shipping details (Pseudocode): The user entering their shipping information is another process step that becomes a straightforward command in pseudocode.
+
+Select Payment Method (Flowchart) → Choice between two methods. (Pseudocode): The diamond decision in the flowchart, representing the choice of a payment method, is converted into an "If" statement in pseudocode, indicating which method the user chose.
+
+Confirm Order (Flowchart) → Confirm order (Pseudocode): The final process of confirming the order translates directly to a pseudocode command.
+
+End (Flowchart) → End (Pseudocode): The ending in the flowchart indicates the conclusion of the transaction, which is reflected by the closing of the function or process in pseudocode.
+
+5. Pseudocode:
+
+<img width="751" alt="Screenshot 2024-11-24 at 11 52 22 PM" src="https://github.com/user-attachments/assets/4671aa16-7c2a-4a49-a97e-580bd4023a8b">
+
+Activity Task:
+Task: Create a flowchart and pseudocode for a simple program that checks if a number is even or odd. If the number is even, the program should print "Even number"; otherwise, it should print "Odd number". 
+
+Use the same steps as the examples:
+
+Define the problem:
+
+Identify Key Processes:
+
+Draw the Flowchart:
+
+Transition to Pseudocode:
+
+Pseudocode:
+
+```
+Start
+Prompt the user to input a number
+If the number is divisible by 2 with no remainder:
+    Print "Even number"
+Otherwise:
+    Print "Odd number"
+End
+```
+
